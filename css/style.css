@@ -1,0 +1,106 @@
+body {
+  background-color: #FFF0A5;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.screen {
+  border: solid #D18B00 0.1rem;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  font-family: 'Comic Sans MS', serif;
+  font-size: 14px;
+  font-weight: 400;
+  height: 33vh;
+  margin: 50px 20px 20px 20px;
+  padding: 10px;
+  width: inherit;
+}
+
+.screen:focus {
+  outline: none;
+  border:0.1rem solid #D18B00 ;
+  box-shadow: 0 0 15px #D18B00 ;
+}
+
+.screen:focus {
+  border: none;
+}
+
+.keyboard {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+button {
+  border: solid 2px #656565;
+  border-radius: 0.5rem;
+  display: flex;
+  flex: 1 1 auto;
+  font-family: 'Comic Sans MS', serif;
+  font-size: 1rem;
+  font-weight: 900;
+  justify-content: center;
+  margin: 4px;
+  padding: 6px 12px;
+}
+
+button:hover {
+  border: solid #FF4500 0.1rem;
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+  transition: 0.2s all ease;
+}
+
+.button-light {
+  background-color: #FFF200;
+}
+
+.button-dark {
+  background-color: #FF9D00;
+}
+
+.caps-indicator {
+  position: absolute;
+  background-color: #FF9D00;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translateX(-2.75rem);
+}
+
+.space {
+  width: 40%;
+}
+
+.shift {
+  width: 15%;
+}
+
+.arrow-container {
+  display: flex;
+  width: 12%;
+}
+
+.arrow {
+  align-self: center;
+  border: solid 2px #656565;
+  font-size: 1.1rem;
+  padding: 0.1rem;
+  margin: 0;
+}
+
+.footer {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Comic Sans MS', serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+
